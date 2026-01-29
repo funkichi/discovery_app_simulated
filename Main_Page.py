@@ -58,9 +58,6 @@ size_option = (384, 216)
 image_logo = Image.open('Material/logo.png')
 image_logo.thumbnail(size_logo)
 
-# 画像を保存
-image_logo.save("Material/logo.png")
-
 # 画像をバイナリで読み込みbase64でエンコードして文字列化する(streamlitではHTMLタグで参照できないから)
 def get_image_base64(image):
     buffered = io.BytesIO()
