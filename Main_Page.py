@@ -225,3 +225,4 @@ if uploaded_file is not None:
     st.write(vision_response_content.replace('\n', '  \n'))
 else:
     st.write("画像をアップロードしてください。")
+    
