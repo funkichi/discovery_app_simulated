@@ -6,7 +6,7 @@ import io
 import os
 
 # 画像サイズを変数に代入
-size_logo = (384, 216)
+size_logo = (320, 180)
 size_area1 = (200, 200)
 size_area2 = (200, 200)
 size_area3 = (200, 200)
